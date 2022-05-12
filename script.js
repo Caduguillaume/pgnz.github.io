@@ -52,7 +52,7 @@ const App = () => {
     return (React.createElement("div", { id: "app" },
         React.createElement(Timer, null),
         React.createElement("b", { id: "", href: "https://youtu.be/6SaFLJHfGj0", target: "_blank" },
-            React.createElement("i", { className: "fa-brands fa-youtube" }),
+            React.createElement("i", { className: "" }),
             React.createElement("h1", null, ""))));
 };
 ReactDOM.render(React.createElement(App,null), document.getElementById("root"));
