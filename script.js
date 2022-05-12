@@ -48,4 +48,11 @@ const Timer = () => {
     return (React.createElement("div", { id: "timer" },
         React.createElement("div", { id: "timer-text" }, getChars())));
 };
-ReactDOM.render(React.createElement(null), document.getElementById("root"));
+const App = () => {
+    return (React.createElement("div", { id: "app" },
+        React.createElement(Timer, null),
+        React.createElement("a", { id: "", href: "https://youtu.be/6SaFLJHfGj0", target: "_blank" },
+            React.createElement("i", { className: "fa-brands fa-youtube" }),
+            React.createElement("h1", null, "Tutorial"))));
+};
+ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
