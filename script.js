@@ -48,4 +48,4 @@ const Timer = () => {
     return (React.createElement("div", { id: "timer" },
         React.createElement("div", { id: "timer-text" }, getChars())));
 };
-ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
+ReactDOM.render(React.createElement(null), document.getElementById("root"));
