@@ -51,8 +51,8 @@ const Timer = () => {
 const App = () => {
     return (React.createElement("div", { id: "app" },
         React.createElement(Timer, null),
-        React.createElement("a", { id: "", href: "https://youtu.be/6SaFLJHfGj0", target: "_blank" },
+        React.createElement("b", { id: "", href: "https://youtu.be/6SaFLJHfGj0", target: "_blank" },
             React.createElement("i", { className: "fa-brands fa-youtube" }),
             React.createElement("h1", null, ""))));
 };
-ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
+ReactDOM.render(React.createElement(App,null), document.getElementById("root"));
