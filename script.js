@@ -55,4 +55,3 @@ const App = () => {
             React.createElement("i", { className: "fa-brands fa-youtube" }),
             React.createElement("h1", null, "Tutorial"))));
 };
-ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
